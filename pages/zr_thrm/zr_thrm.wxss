@@ -1,0 +1,31 @@
+/* pages/zr_thrm/zr_thrm.wxss */
+
+.card {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #FFF; 
+}
+.card-image{
+    display: block;
+    margin:0 auto;
+    width: 80%;
+    height: 200px;
+    
+}
+
+.card-content{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.card-desc {
+    font-size: 14px;
+}

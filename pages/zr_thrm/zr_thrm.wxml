@@ -1,0 +1,16 @@
+<!--pages/zr_thrm/zr_thrm.wxml-->
+<!-- <text>pages/zr_thrm/zr_thrm.wxml</text> -->
+
+<view class="container">
+  <navigator class="card" url="../zr_detail/zr_detail?id={{item.id}}" wx:for="{{list}}" wx:key="{{index}}">
+    <image src="{{item.thumbnail}}" class="card-image"></image>
+    <view class="card-content">
+      <view>
+        <text class="card-title">{{item.title}}</text>
+      </view>
+      <view>
+        <rich-text class="card-desc">{{item.description}}</rich-text>
+      </view>
+    </view>
+  </navigator>
+</view>
